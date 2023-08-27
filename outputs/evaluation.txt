@@ -1,0 +1,20 @@
+Dataset: bpic17_logs_with_interventions-----------------------------
+
+Classifier: k Nearest Neighbors
+Parameters: {'algorithm': 'auto', 'leaf_size': 30, 'metric': 'minkowski', 'metric_params': None, 'n_jobs': None, 'n_neighbors': 3, 'p': 2, 'weights': 'uniform'}Accuracy: 0.5400286487346809
+Precision: 0.5416546334931893
+Recall: 0.5400286487346809
+Accuracy: 0.5384588578356502
+
+Classifier: Decision Tree
+Parameters: {'ccp_alpha': 0.01, 'class_weight': None, 'criterion': 'entropy', 'max_depth': 5, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 3, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'random_state': None, 'splitter': 'best'}Accuracy: 0.7935699506605125
+Precision: 0.7960020173392647
+Recall: 0.7935699506605125
+Accuracy: 0.7929473455183665
+
+Classifier: Random Forest
+Parameters: {'bootstrap': True, 'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'gini', 'max_depth': 6, 'max_features': 'auto', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 5, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 10, 'n_jobs': None, 'oob_score': False, 'random_state': 42, 'verbose': 0, 'warm_start': False}Accuracy: 0.7921375139264683
+Precision: 0.7950421974426068
+Recall: 0.7921375139264683
+Accuracy: 0.7914071282679134
+
